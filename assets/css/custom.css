@@ -31,3 +31,64 @@ hr {
 	left: -2em;
 	font-size: 0.5em !important;
 }
+
+@keyframes loading {
+    0%   {
+    	opacity: 0;
+    }
+    50%  {
+    	opacity: 1;
+    }
+    100% {
+    	opacity: 0;
+    }
+}
+
+.loading {
+    animation-name: loading;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.hide {
+    display: none;
+}
+
+#last-blog-post {
+	max-width: 100%;
+	overflow: auto;
+	max-height: 400px;
+	text-align: left;
+	border-radius: 0.5em;
+	background-color: #f3f3f3;
+	box-shadow: 0 3px 0.2em 0 rgba(0, 0, 0, 0.3) inset;
+	padding: 2em;
+}
+
+.post > .entry > h2 {
+	font-size: 1.6em;
+}
+
+.post > .entry > p {
+	font-size: 0.8em;
+	line-height: 1.7em;
+}
+
+.post > .posted > p {
+	font-size: 0.6em;
+	line-height: 1.5em;
+	display: inline;
+}
+
+.post > .posted > p {
+	float: left;
+}
+
+.post > .posted > .comments {
+	float: right;
+}
+
+a:hover {
+    color: #fece35;
+    border-bottom-color: rgba(255, 255, 255, 0);
+}
