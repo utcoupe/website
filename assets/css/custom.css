@@ -92,3 +92,7 @@ a:hover {
     color: #fece35;
     border-bottom-color: rgba(255, 255, 255, 0);
 }
+
+header > p.no-margin {
+    margin: 0;
+}
