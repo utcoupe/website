@@ -1,2 +1,2 @@
 # website
-Site de l'asso @ assos.utc.fr/utcoupe
+Site de l'asso @ http://assos.utc.fr/utcoupe
