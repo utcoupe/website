@@ -96,3 +96,7 @@ a:hover {
 header > p.no-margin {
     margin: 0;
 }
+
+.left {
+	text-align: left;
+}
