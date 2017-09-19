@@ -108,3 +108,11 @@ header > p.no-margin {
 		margin: auto;
 	}
 }
+
+
+/* Wordpress picture */
+.aligncenter {
+	display: block;
+	max-width: 100%;
+	margin: 1em auto;
+}
