@@ -95,8 +95,16 @@ a:hover {
 
 header > p.no-margin {
     margin: 0;
+    line-height: 1.5em;
 }
 
 .left {
 	text-align: left;
+}
+
+@media screen and (min-width: 961px) {
+	.twothird-row {
+		max-width: 66%;
+		margin: auto;
+	}
 }
