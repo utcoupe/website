@@ -116,3 +116,54 @@ header > p.no-margin {
 	max-width: 100%;
 	margin: 1em auto;
 }
+
+
+/* Picture in fullscreen */
+#overlay {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+	text-align: center;
+	display: none;
+}
+
+#big-picture {
+	margin: auto;
+	padding: 0 0 0.5em 0;
+	max-height: 96%;
+	top: 2%;
+	position: relative;
+	background: #fff;
+	width: fit-content;
+	width: -webkit-fit-content;
+	width: -moz-fit-content;
+	box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
+	border-radius: 0.3em;
+	overflow: hidden;
+}
+
+#big-picture img {
+	max-width: 100%;
+	width: auto;
+	max-height: 80%;
+}
+
+#big-picture p {
+	max-width: 60%;
+	margin: auto;
+}
+
+#big-picture #controls {
+	position: fixed;
+	margin: 0.4em;
+	right: 0px;
+	bottom: 0px;
+	line-height: 1em;
+}
+
+#big-picture #controls span {
+	font-size: 0.7em;
+}
