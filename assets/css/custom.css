@@ -127,6 +127,7 @@ header > p.no-margin {
 	height: 100%;
 	background-color: rgba(0, 0, 0, 0.7);
 	text-align: center;
+	display: flex; /* see jQuery code about this */
 	display: none;
 }
 
@@ -134,7 +135,7 @@ header > p.no-margin {
 	margin: auto;
 	padding: 0 0 0.5em 0;
 	max-height: 96%;
-	top: 2%;
+	/*top: 2%;*/
 	position: relative;
 	background: #fff;
 	width: fit-content;
@@ -143,16 +144,27 @@ header > p.no-margin {
 	box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
 	border-radius: 0.3em;
 	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
 }
 
 #big-picture img {
 	max-width: 100%;
+	max-height: 100%;
 	width: auto;
-	max-height: 80%;
 }
 
 #big-picture p {
 	max-width: 60%;
+	margin: auto;
+}
+
+#big-picture div#image {
+	max-width: 100%;
+	width: auto;
+	max-height: 80%;
+	min-height: 0px; /* to unset default min-height: auto; */
 	margin: auto;
 }
 
