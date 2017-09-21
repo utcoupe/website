@@ -15,6 +15,7 @@ if [ ! "${PWD##*/}" = "website" ]; then
 fi
 
 ln -s ./${PWD##*/}/index.html ../index.html
+ln -s ./${PWD##*/}/pictures.html ../pictures.html
 
 for D in `find . -maxdepth 1 -type d | grep -v "/\." | grep "./"`
 do
